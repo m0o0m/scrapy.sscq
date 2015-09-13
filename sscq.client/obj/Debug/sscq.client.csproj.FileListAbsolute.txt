@@ -1,0 +1,3 @@
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\bin\Debug\scrapy.sscq.exe.config
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.pdb

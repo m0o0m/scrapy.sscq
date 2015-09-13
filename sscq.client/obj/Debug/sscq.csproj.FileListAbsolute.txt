@@ -1,0 +1,8 @@
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\bin\Debug\scrapy.sscq.exe.config
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\bin\Debug\scrapy.sscq.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\bin\Debug\scrapy.sscq.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\obj\Debug\sscq.csprojResolveAssemblyReference.cache
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\obj\Debug\scrapy.sscq.Properties.Resources.resources
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\obj\Debug\sscq.csproj.GenerateResource.Cache
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\obj\Debug\scrapy.sscq.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq\obj\Debug\scrapy.sscq.pdb
