@@ -1,0 +1,6 @@
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\bin\Debug\sscq.iserver.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\bin\Debug\sscq.iserver.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\bin\Debug\Orleans.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\bin\Debug\Orleans.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\obj\Debug\sscq.iserver.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\obj\Debug\sscq.iserver.pdb

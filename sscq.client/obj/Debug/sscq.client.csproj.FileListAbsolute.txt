@@ -1,6 +1,11 @@
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\bin\Debug\scrapy.sscq.exe.config
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.exe
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.pdb
 E:\workspace\scrapy.sscq\sscq.client\bin\Debug\scrapy.sscq.exe.config
 E:\workspace\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.exe
 E:\workspace\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\bin\Debug\scrapy.sscq.exe.config
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\bin\Debug\scrapy.sscq.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\bin\Debug\scrapy.sscq.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.Form1.resources
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.Properties.Resources.resources
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\sscq.client.csproj.GenerateResource.Cache
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.client\obj\Debug\scrapy.sscq.pdb

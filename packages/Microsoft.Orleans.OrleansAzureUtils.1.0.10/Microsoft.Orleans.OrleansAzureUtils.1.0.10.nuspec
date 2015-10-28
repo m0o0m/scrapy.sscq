@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Orleans.OrleansAzureUtils</id>
+    <version>1.0.10</version>
+    <title>Microsoft Orleans Azure Utilities</title>
+    <authors>Microsoft Research</authors>
+    <owners>Microsoft Research</owners>
+    <licenseUrl>https://github.com/dotnet/Orleans#license</licenseUrl>
+    <projectUrl>https://github.com/dotnet/Orleans</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/jthelin/jthelin.github.io/master/images/Orleans-nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library of utility types for Microsoft Azure of Microsoft Orleans.</description>
+    <summary>Azure Utilities Library of Microsoft Orleans - OrleansAzureUtils.dll</summary>
+    <copyright>Copyright Microsoft 2015</copyright>
+    <tags>Orleans Cloud-Computing Actor-Model Actors Distributed-Systems C# .NET</tags>
+    <dependencies>
+      <dependency id="Microsoft.Orleans.Core" version="1.0.10" />
+      <dependency id="Microsoft.Orleans.OrleansRuntime" version="1.0.10" />
+      <dependency id="Microsoft.Orleans.OrleansProviders" version="1.0.10" />
+      <dependency id="WindowsAzure.Storage" version="4.2.0.0" />
+      <dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="2.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>
