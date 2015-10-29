@@ -1,0 +1,25 @@
+/nomerge
+/in:obj\Debug\sscq.iserver.dll
+/key:
+/d:DEBUG;TRACE
+/rns:sscq.iserver
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll
+/r:E:\WorkSpace\dotnet\scrapy.sscq\packages\Microsoft.Orleans.Core.1.0.10\lib\net45\Orleans.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll
+/fsharp:C:\Program Files\MSBuild\..\Microsoft SDKs\F#\3.1\Framework\v4.0\fsc.exe
+/cwd:E:\WorkSpace\dotnet\scrapy.sscq\sscq.iserver\
+/config:Debug
+/OptionExplicit:
+/OptionCompare:
+/OptionStrict:
+/OptionInfer:
+/MyType:
+/src:ILogger.cs
+/src:Properties\orleans.codegen.cs
+/src:Properties\AssemblyInfo.cs

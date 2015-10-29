@@ -28,11 +28,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("sscq.client")]
+[assembly: AssemblyTitle("sscq.database")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("微软中国")]
-[assembly: AssemblyProduct("sscq.client")]
+[assembly: AssemblyProduct("sscq.database")]
 [assembly: AssemblyCopyright("Copyright © 微软中国 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -43,7 +43,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("10053557-1b07-4085-a14f-d4e65cfad6a8")]
+[assembly: Guid("8f49f356-785f-439d-9d25-61d463ebc8eb")]
 
 // Version information for an assembly consists of the following four values:
 //

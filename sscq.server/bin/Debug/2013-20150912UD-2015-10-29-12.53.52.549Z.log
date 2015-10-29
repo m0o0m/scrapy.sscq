@@ -1,0 +1,138 @@
+[2015-10-29 12:53:53.209 GMT     9	INFO   	100404	Silo	127.0.0.1:11111]	Silo starting with GC settings: ServerGC=True GCLatencyMode=Interactive	
+[2015-10-29 12:53:53.219 GMT     9	WARNING	100405	Silo	127.0.0.1:11111]	Note: Silo not running with ServerGC turned on or with GCLatencyMode.Batch enabled - recommend checking app config : <configuration>-<runtime>-<gcServer enabled="true"> and <configuration>-<runtime>-<gcConcurrent enabled="false"/>	
+[2015-10-29 12:53:53.229 GMT     9	INFO   	100403	Silo	127.0.0.1:11111]	-------------- Initializing Primary silo on host 2013-20150912UD MachineName 2013-20150912UD at 127.0.0.1:11111, gen 183819233 --------------	
+[2015-10-29 12:53:53.249 GMT     9	INFO   	100415	Silo	127.0.0.1:11111]	Starting silo 2013-20150912UD with runtime Version='1.0.10.0 (Release).' .NET version='4.0.30319.18444' Is .NET 4.5=True OS version='Microsoft Windows NT 6.1.7601 Service Pack 1' Config= 
+Config File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.server\bin\Debug\DevTestServerConfiguration.xml
+Host: 2013-20150912UD
+Start time: 2015-10-29 12:53:53.229 GMT
+Primary node: 127.0.0.1:11111
+Platform version info:
+   .NET version: 4.0.30319.18444
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.1.7601 Service Pack 1
+   GC Type=Server GCLatencyMode=Interactive
+Global configuration:
+   System Ids:
+      ServiceId: 00000000-0000-0000-0000-000000000000
+      DeploymentId: Administrator
+   Subnet: 
+   Seed nodes: 127.0.0.1:11111
+   Messaging:
+       Response timeout: 00:30:00
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Silo Sender queues: 4
+       Gateway Sender queues: 4
+       Use standard (.NET) serializer: False
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+       Maximum forward count: 2
+   Liveness:
+      LivenessEnabled: True
+      LivenessType: MembershipTableGrain
+      ProbeTimeout: 00:00:10
+      TableRefreshTimeout: 00:01:00
+      DeathVoteExpirationTimeout: 00:02:00
+      NumMissedProbesLimit: 3
+      NumProbedSilos: 3
+      NumVotesForDeathDeclaration: 2
+      UseLivenessGossip: True
+      IAmAliveTablePublishTimeout: 00:05:00
+      NumMissedTableIAmAliveLimit: 2
+      MaxJoinAttemptTime: 00:05:00
+      ExpectedClusterSize: 20
+   SystemStore:
+      SystemStore ConnectionString: null
+      Reminders ConnectionString: null
+   Application:
+      Defaults:
+         Deactivate if idle for: 02:00:00
+
+   PlacementStrategy: 
+         Default Placement Strategy: RandomPlacement
+         Deployment Load Publisher Refresh Time: 00:00:01
+         Activation CountBased Placement Choose Out Of: 2
+   Grain directory cache:
+      Maximum size: 1000000 grains
+      Initial TTL: 00:00:30
+      Maximum TTL: 00:04:00
+      TTL extension factor: 2.00
+      Directory Caching Strategy: Adaptive
+   Grain directory:
+      Lazy deregistration delay: 00:01:00
+      Client registration refresh: 00:05:00
+   Reminder Service:
+       ReminderServiceType: ReminderTableGrain
+   Consistent Ring:
+       Use Virtual Buckets Consistent Ring: True
+       Num Virtual Buckets Consistent Ring: 30
+   Providers:
+       StorageProviders:
+           Name=MemoryStore, Type=Orleans.Storage.MemoryStorage, Properties=[]
+
+Silo configuration:
+   Silo Name: 2013-20150912UD
+   Generation: 183819233
+   Host Name or IP Address: localhost
+   DNS Host Name: 2013-20150912UD
+   Port: 11111
+   Subnet: 
+   Preferred Address Family: InterNetwork
+   Proxy Gateway: 127.0.0.1:30000
+   IsPrimaryNode: True
+   Scheduler: 
+         Max Active Threads: 4
+         Processor Count: 4
+         Delay Warning Threshold: 00:00:10
+         Activation Scheduling Quantum: 00:00:00.1000000
+         Turn Warning Length Threshold: 00:00:00.2000000
+         Inject More Worker Threads: False
+         MinDotNetThreadPoolSize: 200
+         .NET thread pool sizes - Min: Worker Threads=4 Completion Port Threads=4
+         .NET thread pool sizes - Max: Worker Threads=1023 Completion Port Threads=1000
+         .NET ServicePointManager - DefaultConnectionLimit=200 Expect100Continue=False UseNagleAlgorithm=False
+   Load Shedding Enabled: False
+   Load Shedding Limit: 95
+   SiloShutdownEventName: 
+   Debug: 
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides:
+         Application ==> Info
+     Trace to Console: True
+     Trace File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.server\bin\Debug\2013-20150912UD-2015-10-29-12.53.52.549Z.log
+     Write Messaging Traces: False
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: True
+     StatisticsCollectionLevel: Info
+
+	
+[2015-10-29 12:53:54.529 GMT     9	INFO   	100000	Scheduler.OrleansTaskScheduler	127.0.0.1:11111]	Starting OrleansTaskScheduler with 4 Max Active application Threads and 1 system thread.	
+[2015-10-29 12:53:54.549 GMT     9	INFO   	101010	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:11111]	Opened a listening socket at address 127.0.0.1:11111	
+[2015-10-29 12:53:54.559 GMT     9	INFO   	101010	Runtime.Messaging.GatewayAcceptor	127.0.0.1:11111]	Opened a listening socket at address 127.0.0.1:30000	
+[2015-10-29 12:53:54.589 GMT     9	INFO   	100000	VirtualBucketsRingProvider	127.0.0.1:11111]	Starting VirtualBucketsRingProvider on silo S127.0.0.1:11111:183819233/x8307023E.	
+[2015-10-29 12:53:54.639 GMT     9	INFO   	103003	VirtualBucketsRingProvider	127.0.0.1:11111]	Added Server S127.0.0.1:11111:183819233/x8307023E. Current view: [S127.0.0.1:11111:183819233 -> <MultiRange: Size=x100000000, %Ring=100.000%>]	
+[2015-10-29 12:53:54.649 GMT     9	INFO   	103005	VirtualBucketsRingProvider	127.0.0.1:11111]	-NotifyLocalRangeSubscribers about old <(0 0], Size=x100000000, %Ring=100.000%> new <MultiRange: Size=x100000000, %Ring=100.000%> increased? True	
+[2015-10-29 12:53:54.669 GMT     9	INFO   	100294	SystemStatus	127.0.0.1:11111]	SystemStatus=Created	
+[2015-10-29 12:53:54.679 GMT     9	INFO   	100422	Silo	127.0.0.1:11111]	-------------- Started silo S127.0.0.1:11111:183819233, ConsistentHashCode 8307023E --------------	
+[2015-10-29 12:53:54.679 GMT     9	INFO   	100441	OrleansSiloHost	127.0.0.1:11111]	Silo shutdown event name: 2013-20150912UD-Shutdown	
+[2015-10-29 12:53:54.689 GMT     9	INFO   	100442	OrleansSiloHost	127.0.0.1:11111]	Created and set shutdown event 2013-20150912UD-Shutdown	
+[2015-10-29 12:53:54.709 GMT     9	INFO   	100294	SystemStatus	127.0.0.1:11111]	SystemStatus=Starting	
+[2015-10-29 12:53:54.719 GMT     9	INFO   	100401	Silo	127.0.0.1:11111]	Silo Start()	
+[2015-10-29 12:53:54.729 GMT     9	INFO   	100430	Silo	127.0.0.1:11111]	Configured ThreadPool.SetMinThreads() to values: 200,200. Previous values are: 4,4.	
+[2015-10-29 12:53:54.729 GMT     9	INFO   	100436	Silo	127.0.0.1:11111]	Configured .NET ServicePointManager to Expect100Continue=False, DefaultConnectionLimit=200, UseNagleAlgorithm=False to improve Azure storage performance.	
+[2015-10-29 12:53:54.759 GMT     9	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	Searching for assemblies in E:\WorkSpace\dotnet\scrapy.sscq\sscq.server\bin\Debug...	
+[2015-10-29 12:53:54.809 GMT     9	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.server\bin\Debug\Microsoft.Data.Edm.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
