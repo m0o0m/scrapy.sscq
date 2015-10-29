@@ -1,4 +1,0 @@
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.net\bin\Debug\sscq.net.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.net\bin\Debug\sscq.net.pdb
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.net\obj\Debug\sscq.net.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.net\obj\Debug\sscq.net.pdb

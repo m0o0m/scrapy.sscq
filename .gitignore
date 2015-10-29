@@ -1,0 +1,9 @@
+/sscq.server/obj
+/sscq.server/bin
+/sscq.client/bin
+bin
+/sscq.iserver
+/sscq.iserver/obj
+/sscq.iserver/bin
+/sscq.logger/*
+/sscq.net/*

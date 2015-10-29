@@ -1,4 +1,0 @@
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.dbo\bin\Debug\sscq.dbo.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.dbo\bin\Debug\sscq.dbo.pdb
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.dbo\obj\Debug\sscq.dbo.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.dbo\obj\Debug\sscq.dbo.pdb

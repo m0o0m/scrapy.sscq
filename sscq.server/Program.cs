@@ -23,6 +23,8 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 
 using System;
 using System.Threading.Tasks;
+using Microsoft.Win32;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace sscq.server
@@ -48,12 +50,17 @@ namespace sscq.server
             // TODO: once the previous call returns, the silo is up and running.
             //       This is the place your custom logic, for example calling client logic
             //       or initializing an HTTP front end for accepting incoming requests.
-
+            HideConsoleWindow();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
             hostDomain.DoCallBack(ShutdownSilo);
+            if (consoleHander != IntPtr.Zero)
+            {
+                ShowWindow(consoleHander, 5);
+                SendMessage(consoleHander, 0x10, 0, 0);
+            }
         }
 
         static void InitSilo(string[] args)
@@ -72,9 +79,33 @@ namespace sscq.server
             {
                 hostWrapper.Dispose();
                 GC.SuppressFinalize(hostWrapper);
-            }
+            }            
         }
 
+        private static IntPtr consoleHander;
         private static OrleansHostWrapper hostWrapper;
+
+        [DllImport("user32.dll", EntryPoint = "ShowWindow", SetLastError = true)]
+        static extern bool ShowWindow(IntPtr hWnd, uint nCmdShow);
+        [DllImport("user32.dll", EntryPoint = "FindWindow", SetLastError = true)]      
+        static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+        [DllImport("user32.dll", EntryPoint = "SendMessageA")]
+        public static extern int SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+ 
+        /// <summary>
+        /// 隐藏控制台.
+        /// </summary>
+        /// <param name="consoleTitle">窗体的Title</param>
+        static void HideConsoleWindow()
+        {
+            string path = System.Windows.Forms.Application.StartupPath;
+            consoleHander = FindWindow("ConsoleWindowClass", null);
+            if (consoleHander != IntPtr.Zero)
+                ShowWindow(consoleHander, 0);//隐藏窗口
+            else
+                 Console.Error.WriteLine("PhantomBrowser.HideBrowser(). can't hide console window");
+        }
+
+        
     }
 }

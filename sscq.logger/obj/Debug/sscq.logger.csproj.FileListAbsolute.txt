@@ -1,9 +1,0 @@
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\bin\Debug\sscq.logger.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\bin\Debug\sscq.logger.pdb
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\bin\Debug\Orleans.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\bin\Debug\sscq.iserver.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\bin\Debug\sscq.iserver.pdb
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\bin\Debug\Orleans.xml
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\obj\Debug\sscq.logger.csprojResolveAssemblyReference.cache
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\obj\Debug\sscq.logger.dll
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.logger\obj\Debug\sscq.logger.pdb
