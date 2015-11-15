@@ -1,0 +1,839 @@
+[2015-11-15 14:22:58.747 GMT     5	INFO   	100000	AssemblyLoader.Client	]	Recursively searching for assemblies in E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug...	
+[2015-11-15 14:22:58.787 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.Edm.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.807 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.OData.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.827 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.Services.Client.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.827 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.827 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.847 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.867 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Newtonsoft.Json.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.867 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansRuntime.dll
+	* Assembly filename is excluded.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\sscq.interfaces.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\System.Spatial.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.877 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.887 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.897 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.897 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.897 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.897 GMT     5	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 14:22:58.897 GMT     5	INFO   	100000	AssemblyLoader.Client	]	Loading assembly E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansAzureUtils.dll...	
+[2015-11-15 14:22:59.007 GMT     5	INFO   	100000	AssemblyLoader.Client	]	Loading assembly E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansProviders.dll...	
+[2015-11-15 14:22:59.007 GMT     5	INFO   	100000	AssemblyLoader.Client	]	2 assemblies loaded.	
+[2015-11-15 14:22:59.047 GMT     5	INFO   	100313	OutsideRuntimeClient	]	---------- Initializing OutsideRuntimeClient on 2013-20150912UD at 192.168.1.103 Client Id = *cli/1c03fdb8 ----------	
+[2015-11-15 14:22:59.047 GMT     5	INFO   	100314	OutsideRuntimeClient	]	---------- Starting OutsideRuntimeClient with runtime Version='1.0.10.0 (Release).' Config= 
+ Platform version info:
+   .NET version: 4.0.30319.18444
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.1.7601 Service Pack 1
+   GC Type=Server GCLatencyMode=Interactive
+   Host: 2013-20150912UD
+   Processor Count: 4
+Client Configuration:
+   Config File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\DevTestClientConfiguration.xml
+   Start time: 2015-11-15 14:22:59.047 GMT
+   Gateway Provider: Config
+   Gateways[1]:
+      127.0.0.1:30000
+   Preferred Gateway Index: -1
+   GatewayListRefreshPeriod: 00:01:00
+   Azure:
+      DeploymentId: Administrator
+      DataConnectionString: null
+   Preferred Address Family: InterNetwork
+   DNS Host Name: 2013-20150912UD
+   Client Name: Client
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides: None
+     Trace to Console: True
+     Trace File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Client-2015-11-15-14.22.58.283Z.log
+     Write Messaging Traces: False
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: False
+     StatisticsCollectionLevel: Info
+   Messaging:
+       Response timeout: 00:00:30
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Client Sender Buckets: 8192
+       Use standard (.NET) serializer: False   [NOTE: This *MUST* match the setting on the server or nothing will work!]
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+   Providers:
+       No providers configured.
+	
+[2015-11-15 14:22:59.077 GMT     5	INFO   	101309	Messaging.GatewayManager	]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://127.0.0.1:30000/0]	
+[2015-11-15 14:23:00.327 GMT     5	INFO   	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Connected to gateway at address gwy.tcp://127.0.0.1:30000/0 on trial 0.	
+[2015-11-15 14:23:00.327 GMT    27	INFO   	100000	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0 on managed thread 27	
+[2015-11-15 14:23:00.337 GMT    26	INFO   	100000	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0 on managed thread 26	
+[2015-11-15 14:23:00.407 GMT     5	INFO   	100929	OutsideRuntimeClient	192.168.1.103:0]	---------- Started OutsideRuntimeClient with Global Client ID: C192.168.1.103:0:-185293379*cli/1c03fdb8@4e9b87b8, client GUID ID: *cli/1c03fdb8	
+[2015-11-15 14:28:00.340 GMT     5	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=7.254
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=0.000
+Runtime.GC.GenCollectonCount=gen0=4, gen1=2, gen2=2
+Runtime.GC.GenSizesKb=gen0=48862.58, gen1=3337.52, gen2=2424.61
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.018
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=6.746
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=42242
+Runtime.Memory.AvailableMemoryMb=816
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 14:33:00.351 GMT     6	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=3.907
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=166.969
+Runtime.GC.GenCollectonCount=gen0=5, gen1=2, gen2=2
+Runtime.GC.GenSizesKb=gen0=37086.03, gen1=3337.52, gen2=2424.61
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.003
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=42072
+Runtime.Memory.AvailableMemoryMb=838
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 14:38:00.369 GMT    24	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=15.038
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=250.365
+Runtime.GC.GenCollectonCount=gen0=7, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=23102.53, gen1=80.77, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.002
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=22602
+Runtime.Memory.AvailableMemoryMb=828
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 14:43:00.383 GMT     6	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=14.430
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=222.150
+Runtime.GC.GenCollectonCount=gen0=10, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=15380.52, gen1=102.55, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.001
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=17505
+Runtime.Memory.AvailableMemoryMb=817
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 14:48:00.396 GMT    24	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=6.517
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=278.898
+Runtime.GC.GenCollectonCount=gen0=17, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=178.91, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.004
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=17612
+Runtime.Memory.AvailableMemoryMb=1007
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 14:53:00.418 GMT     5	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=0.096
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=298.796
+Runtime.GC.GenCollectonCount=gen0=25, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=411.80, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.007
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=17575
+Runtime.Memory.AvailableMemoryMb=998
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 14:58:00.437 GMT     5	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=7.588
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=293.894
+Runtime.GC.GenCollectonCount=gen0=33, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=546.14, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.004
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=18219
+Runtime.Memory.AvailableMemoryMb=989
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 15:03:00.433 GMT    29	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=2.545
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=306.903
+Runtime.GC.GenCollectonCount=gen0=41, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=849.59, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.008
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=15035
+Runtime.Memory.AvailableMemoryMb=975
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 15:08:00.443 GMT    29	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=4.499
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=236.125
+Runtime.GC.GenCollectonCount=gen0=47, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=945.70, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.006
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=14752
+Runtime.Memory.AvailableMemoryMb=960
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 15:13:00.450 GMT    29	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=1.455
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=330.582
+Runtime.GC.GenCollectonCount=gen0=56, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=1053.90, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.006
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=16948
+Runtime.Memory.AvailableMemoryMb=957
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-15 15:18:00.454 GMT    24	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=42.000
+App.Requests.LatencyHistogram.Millis=[0.8192:1.6383]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=2.527
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=273.026
+Runtime.GC.GenCollectonCount=gen0=63, gen1=3, gen2=2
+Runtime.GC.GenSizesKb=gen0=7680.00, gen1=1302.13, gen2=5744.95
+Runtime.GC.LargeObjectHeapSizeKb=690.320
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.006
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=0.000
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=18200
+Runtime.Memory.AvailableMemoryMb=921
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	

@@ -1,0 +1,14 @@
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\DevTestClientConfiguration.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.spiderman.exe.config
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.spiderman.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.spiderman.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Orleans.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.interfaces.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.interfaces.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Orleans.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.csprojResolveAssemblyReference.cache
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.Form1.resources
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.Properties.Resources.resources
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.csproj.GenerateResource.Cache
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.exe
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.pdb

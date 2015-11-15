@@ -1,0 +1,219 @@
+[2015-11-15 16:31:43.634 GMT     6	INFO   	100000	AssemblyLoader.Client	]	Recursively searching for assemblies in E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug...	
+[2015-11-15 16:31:43.677 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.Edm.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.700 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.OData.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.718 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.Services.Client.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.719 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.730 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.753 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.769 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Newtonsoft.Json.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.769 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2015-11-15 16:31:43.781 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansRuntime.dll
+	* Assembly filename is excluded.	
+[2015-11-15 16:31:43.782 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\sscq.interfaces.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.787 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\System.Spatial.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:43.787 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.787 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.788 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.788 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\de\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.788 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.789 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.789 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.789 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\es\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.789 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.790 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.790 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.791 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\fr\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.791 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.791 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.792 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.792 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\it\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.792 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.793 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.793 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.793 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ja\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.793 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.794 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.794 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.794 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ko\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.795 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.795 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.795 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.796 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\ru\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.796 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.796 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.796 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.797 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hans\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.797 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.798 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.798 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.798 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\zh-Hant\System.Spatial.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2015-11-15 16:31:43.799 GMT     6	INFO   	100000	AssemblyLoader.Client	]	Loading assembly E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansAzureUtils.dll...	
+[2015-11-15 16:31:43.927 GMT     6	INFO   	100000	AssemblyLoader.Client	]	Loading assembly E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansProviders.dll...	
+[2015-11-15 16:31:43.930 GMT     6	INFO   	100000	AssemblyLoader.Client	]	2 assemblies loaded.	
+[2015-11-15 16:31:43.974 GMT     6	INFO   	100313	OutsideRuntimeClient	]	---------- Initializing OutsideRuntimeClient on 2013-20150912UD at 192.168.1.103 Client Id = *cli/b6f1bda3 ----------	
+[2015-11-15 16:31:43.985 GMT     6	INFO   	100314	OutsideRuntimeClient	]	---------- Starting OutsideRuntimeClient with runtime Version='1.0.10.0 (Release).' Config= 
+ Platform version info:
+   .NET version: 4.0.30319.18444
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.1.7601 Service Pack 1
+   GC Type=Server GCLatencyMode=Interactive
+   Host: 2013-20150912UD
+   Processor Count: 4
+Client Configuration:
+   Config File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\DevTestClientConfiguration.xml
+   Start time: 2015-11-15 16:31:43.981 GMT
+   Gateway Provider: Config
+   Gateways[1]:
+      127.0.0.1:30000
+   Preferred Gateway Index: -1
+   GatewayListRefreshPeriod: 00:01:00
+   Azure:
+      DeploymentId: Administrator
+      DataConnectionString: null
+   Preferred Address Family: InterNetwork
+   DNS Host Name: 2013-20150912UD
+   Client Name: Client
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides: None
+     Trace to Console: True
+     Trace File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Client-2015-11-15-16.31.43.147Z.log
+     Write Messaging Traces: False
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: False
+     StatisticsCollectionLevel: Info
+   Messaging:
+       Response timeout: 00:00:30
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Client Sender Buckets: 8192
+       Use standard (.NET) serializer: False   [NOTE: This *MUST* match the setting on the server or nothing will work!]
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+   Providers:
+       No providers configured.
+	
+[2015-11-15 16:31:44.035 GMT     6	INFO   	101309	Messaging.GatewayManager	]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://127.0.0.1:30000/0]	
+[2015-11-15 16:31:45.322 GMT     6	INFO   	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Connected to gateway at address gwy.tcp://127.0.0.1:30000/0 on trial 0.	
+[2015-11-15 16:31:45.325 GMT    31	INFO   	100000	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0 on managed thread 31	
+[2015-11-15 16:31:45.325 GMT    30	INFO   	100000	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0 on managed thread 30	
+[2015-11-15 16:31:45.393 GMT     6	INFO   	100929	OutsideRuntimeClient	192.168.1.103:0]	---------- Started OutsideRuntimeClient with Global Client ID: C192.168.1.103:0:-185301104*cli/b6f1bda3@87575a92, client GUID ID: *cli/b6f1bda3	
+[2015-11-15 16:36:45.341 GMT     5	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=40.000
+App.Requests.LatencyHistogram.Millis=[1.6384:3.2767]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=2
+Client.ConnectedGatewayCount=1
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=478
+Messaging.Received.Bytes.Total.Current=1631
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=2
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=2
+Messaging.Received.Messages.Total.Current=2
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=494
+Messaging.Sent.Bytes.Total.Current=588
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=2
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=2
+Messaging.Sent.Messages.Total.Current=2
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=0
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=8.111
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=0.000
+Runtime.GC.GenCollectonCount=gen0=5, gen1=3, gen2=3
+Runtime.GC.GenSizesKb=gen0=69494.84, gen1=3411.34, gen2=2449.13
+Runtime.GC.LargeObjectHeapSizeKb=584.372
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.010
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=5.039
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=18920
+Runtime.Memory.AvailableMemoryMb=847
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=256
+Serialization.BufferPool.CheckedOutBuffers.Current=290
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	

@@ -1,0 +1,428 @@
+[2015-11-15 16:31:28.928 GMT     1	INFO   	100404	Silo	127.0.0.1:11111]	Silo starting with GC settings: ServerGC=True GCLatencyMode=Interactive	
+[2015-11-15 16:31:28.930 GMT     1	WARNING	100405	Silo	127.0.0.1:11111]	Note: Silo not running with ServerGC turned on or with GCLatencyMode.Batch enabled - recommend checking app config : <configuration>-<runtime>-<gcServer enabled="true"> and <configuration>-<runtime>-<gcConcurrent enabled="false"/>	
+[2015-11-15 16:31:28.931 GMT     1	INFO   	100403	Silo	127.0.0.1:11111]	-------------- Initializing Primary silo on host 2013-20150912UD MachineName 2013-20150912UD at 127.0.0.1:11111, gen 185301088 --------------	
+[2015-11-15 16:31:28.951 GMT     1	INFO   	100415	Silo	127.0.0.1:11111]	Starting silo 2013-20150912UD with runtime Version='1.0.10.0 (Release).' .NET version='4.0.30319.18444' Is .NET 4.5=True OS version='Microsoft Windows NT 6.1.7601 Service Pack 1' Config= 
+Config File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\DevTestServerConfiguration.xml
+Host: 2013-20150912UD
+Start time: 2015-11-15 16:31:28.934 GMT
+Primary node: 127.0.0.1:11111
+Platform version info:
+   .NET version: 4.0.30319.18444
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.1.7601 Service Pack 1
+   GC Type=Server GCLatencyMode=Interactive
+Global configuration:
+   System Ids:
+      ServiceId: 00000000-0000-0000-0000-000000000000
+      DeploymentId: Administrator
+   Subnet: 
+   Seed nodes: 127.0.0.1:11111
+   Messaging:
+       Response timeout: 00:00:30
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Silo Sender queues: 4
+       Gateway Sender queues: 4
+       Use standard (.NET) serializer: False
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+       Maximum forward count: 2
+   Liveness:
+      LivenessEnabled: True
+      LivenessType: MembershipTableGrain
+      ProbeTimeout: 00:00:10
+      TableRefreshTimeout: 00:01:00
+      DeathVoteExpirationTimeout: 00:02:00
+      NumMissedProbesLimit: 3
+      NumProbedSilos: 3
+      NumVotesForDeathDeclaration: 2
+      UseLivenessGossip: True
+      IAmAliveTablePublishTimeout: 00:05:00
+      NumMissedTableIAmAliveLimit: 2
+      MaxJoinAttemptTime: 00:05:00
+      ExpectedClusterSize: 20
+   SystemStore:
+      SystemStore ConnectionString: null
+      Reminders ConnectionString: null
+   Application:
+      Defaults:
+         Deactivate if idle for: 02:00:00
+
+   PlacementStrategy: 
+         Default Placement Strategy: RandomPlacement
+         Deployment Load Publisher Refresh Time: 00:00:01
+         Activation CountBased Placement Choose Out Of: 2
+   Grain directory cache:
+      Maximum size: 1000000 grains
+      Initial TTL: 00:00:30
+      Maximum TTL: 00:04:00
+      TTL extension factor: 2.00
+      Directory Caching Strategy: Adaptive
+   Grain directory:
+      Lazy deregistration delay: 00:01:00
+      Client registration refresh: 00:05:00
+   Reminder Service:
+       ReminderServiceType: ReminderTableGrain
+   Consistent Ring:
+       Use Virtual Buckets Consistent Ring: True
+       Num Virtual Buckets Consistent Ring: 30
+   Providers:
+       StorageProviders:
+
+Silo configuration:
+   Silo Name: 2013-20150912UD
+   Generation: 185301088
+   Host Name or IP Address: localhost
+   DNS Host Name: 2013-20150912UD
+   Port: 11111
+   Subnet: 
+   Preferred Address Family: InterNetwork
+   Proxy Gateway: 127.0.0.1:30000
+   IsPrimaryNode: True
+   Scheduler: 
+         Max Active Threads: 4
+         Processor Count: 4
+         Delay Warning Threshold: 00:00:10
+         Activation Scheduling Quantum: 00:00:00.1000000
+         Turn Warning Length Threshold: 00:00:00.2000000
+         Inject More Worker Threads: False
+         MinDotNetThreadPoolSize: 200
+         .NET thread pool sizes - Min: Worker Threads=4 Completion Port Threads=4
+         .NET thread pool sizes - Max: Worker Threads=1023 Completion Port Threads=1000
+         .NET ServicePointManager - DefaultConnectionLimit=200 Expect100Continue=False UseNagleAlgorithm=False
+   Load Shedding Enabled: False
+   Load Shedding Limit: 95
+   SiloShutdownEventName: 
+   Debug: 
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides:
+         Application ==> Info
+     Trace to Console: True
+     Trace File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\2013-20150912UD-2015-11-15-16.31.28.705Z.log
+     Write Messaging Traces: False
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: False
+     StatisticsCollectionLevel: Info
+
+	
+[2015-11-15 16:31:30.183 GMT     1	INFO   	100000	Scheduler.OrleansTaskScheduler	127.0.0.1:11111]	Starting OrleansTaskScheduler with 4 Max Active application Threads and 1 system thread.	
+[2015-11-15 16:31:30.188 GMT     1	INFO   	101010	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:11111]	Opened a listening socket at address 127.0.0.1:11111	
+[2015-11-15 16:31:30.192 GMT     1	INFO   	101010	Runtime.Messaging.GatewayAcceptor	127.0.0.1:11111]	Opened a listening socket at address 127.0.0.1:30000	
+[2015-11-15 16:31:30.211 GMT     1	INFO   	100000	VirtualBucketsRingProvider	127.0.0.1:11111]	Starting VirtualBucketsRingProvider on silo S127.0.0.1:11111:185301088/x331BE413.	
+[2015-11-15 16:31:30.233 GMT     1	INFO   	103003	VirtualBucketsRingProvider	127.0.0.1:11111]	Added Server S127.0.0.1:11111:185301088/x331BE413. Current view: [S127.0.0.1:11111:185301088 -> <MultiRange: Size=x100000000, %Ring=100.000%>]	
+[2015-11-15 16:31:30.234 GMT     1	INFO   	103005	VirtualBucketsRingProvider	127.0.0.1:11111]	-NotifyLocalRangeSubscribers about old <(0 0], Size=x100000000, %Ring=100.000%> new <MultiRange: Size=x100000000, %Ring=100.000%> increased? True	
+[2015-11-15 16:31:30.245 GMT     1	INFO   	100294	SystemStatus	127.0.0.1:11111]	SystemStatus=Created	
+[2015-11-15 16:31:30.246 GMT     1	INFO   	100422	Silo	127.0.0.1:11111]	-------------- Started silo S127.0.0.1:11111:185301088, ConsistentHashCode 331BE413 --------------	
+[2015-11-15 16:31:30.247 GMT     1	INFO   	100441	OrleansSiloHost	127.0.0.1:11111]	Silo shutdown event name: 2013-20150912UD-Shutdown	
+[2015-11-15 16:31:30.247 GMT     1	INFO   	100442	OrleansSiloHost	127.0.0.1:11111]	Created and set shutdown event 2013-20150912UD-Shutdown	
+[2015-11-15 16:31:30.251 GMT     1	INFO   	100294	SystemStatus	127.0.0.1:11111]	SystemStatus=Starting	
+[2015-11-15 16:31:30.252 GMT     1	INFO   	100401	Silo	127.0.0.1:11111]	Silo Start()	
+[2015-11-15 16:31:30.253 GMT     1	INFO   	100430	Silo	127.0.0.1:11111]	Configured ThreadPool.SetMinThreads() to values: 200,200. Previous values are: 4,4.	
+[2015-11-15 16:31:30.253 GMT     1	INFO   	100436	Silo	127.0.0.1:11111]	Configured .NET ServicePointManager to Expect100Continue=False, DefaultConnectionLimit=200, UseNagleAlgorithm=False to improve Azure storage performance.	
+[2015-11-15 16:31:30.264 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	Searching for assemblies in E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug...	
+[2015-11-15 16:31:30.290 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.Edm.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.313 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.OData.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.329 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.Data.Services.Client.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.331 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.343 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.363 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.377 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Newtonsoft.Json.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.378 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2015-11-15 16:31:30.390 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansRuntime.dll
+	* Assembly filename is excluded.	
+[2015-11-15 16:31:30.391 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\sscq.interfaces.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.394 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\System.Spatial.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-15 16:31:30.395 GMT     1	WARNING	101705	AssemblyLoader.Silo	127.0.0.1:11111]	Unable to find directory E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\Applications; skipping.	
+[2015-11-15 16:31:30.395 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	Loading assembly E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansAzureUtils.dll...	
+[2015-11-15 16:31:30.505 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	Loading assembly E:\WorkSpace\dotnet\scrapy.sscq\sscq.services\bin\Debug\OrleansProviders.dll...	
+[2015-11-15 16:31:30.509 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:11111]	2 assemblies loaded.	
+[2015-11-15 16:31:30.542 GMT     1	INFO   	101711	AssemblyLoader.Silo	127.0.0.1:11111]	Loaded grain type summary for 5 types: 
+Grain class Orleans.Runtime.Management.ManagementGrain [1954798034 (0x7483D9D2)] from OrleansRuntime.dll implementing interfaces: Orleans.Runtime.IManagementGrain [-1734666656 (0x989B1660)]
+Grain class Orleans.Runtime.MembershipService.GrainBasedMembershipTable [-2103923544 (0x8298ACA8)] from OrleansRuntime.dll implementing interfaces: Orleans.IMembershipTableGrain [-1256503757 (0xB51B4633)]
+Grain class Orleans.Runtime.ReminderService.GrainBasedReminderTable [-55315191 (0xFCB3F509)] from OrleansRuntime.dll implementing interfaces: Orleans.IReminderTableGrain [-1135060418 (0xBC585A3E)]
+Grain class Orleans.Streams.PubSubRendezvousGrain [1903070868 (0x716E8E94)] from OrleansRuntime.dll implementing interfaces: Orleans.Streams.IPubSubRendezvousGrain [1746702088 (0x681C8F08)]
+Grain class OrleansProviders.Storage.MemoryStorageGrain [-448291344 (0xE5479DF0)] from OrleansProviders.dll implementing interfaces: Orleans.Storage.IMemoryStorageGrain [577125491 (0x22663C73)]
+	
+[2015-11-15 16:31:30.558 GMT    11	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/System.5	127.0.0.1:11111]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/System.5 on managed thread 11	
+[2015-11-15 16:31:30.558 GMT     7	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/0	127.0.0.1:11111]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/0 on managed thread 7	
+[2015-11-15 16:31:30.561 GMT     8	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/1	127.0.0.1:11111]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/1 on managed thread 8	
+[2015-11-15 16:31:30.565 GMT     9	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/2	127.0.0.1:11111]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/2 on managed thread 9	
+[2015-11-15 16:31:30.567 GMT    10	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/3	127.0.0.1:11111]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/3 on managed thread 10	
+[2015-11-15 16:31:30.567 GMT    12	INFO   	100000	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAcceptor on managed thread 12	
+[2015-11-15 16:31:30.568 GMT    13	INFO   	100000	Runtime.Messaging.SiloMessageSender/PingSender	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/PingSender on managed thread 13	
+[2015-11-15 16:31:30.569 GMT    12	INFO   	100328	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:11111]	Stopping AsyncAgent Runtime.Messaging.IncomingMessageAcceptor that runs on managed thread 12	
+[2015-11-15 16:31:30.570 GMT    14	INFO   	100000	Runtime.Messaging.SiloMessageSender/SystemSender	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/SystemSender on managed thread 14	
+[2015-11-15 16:31:30.571 GMT    19	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/Ping	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Ping on managed thread 19	
+[2015-11-15 16:31:30.572 GMT    18	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/System	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/System on managed thread 18	
+[2015-11-15 16:31:30.573 GMT    20	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/Application	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Application on managed thread 20	
+[2015-11-15 16:31:30.573 GMT    17	INFO   	100000	Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1	127.0.0.1:11111]	Starting AsyncAgent Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1 on managed thread 17	
+[2015-11-15 16:31:30.584 GMT     1	INFO   	100000	MembershipFactory	127.0.0.1:11111]	Creating membership oracle for type=MembershipTableGrain	
+[2015-11-15 16:31:30.591 GMT     1	INFO   	100000	ReminderFactory	127.0.0.1:11111]	Creating reminder system target for type=ReminderTableGrain	
+[2015-11-15 16:31:30.607 GMT     8	INFO   	100635	MembershipFactory	127.0.0.1:11111]	Creating membership table provider for type=MembershipTableGrain	
+[2015-11-15 16:31:30.626 GMT     9	INFO   	100637	GrainBasedMembershipTable	127.0.0.1:11111]	GrainBasedMembershipTable Activated.	
+[2015-11-15 16:31:30.634 GMT     8	INFO   	100507	Catalog	127.0.0.1:11111]	Before collection#1: memory=11MB, #activations=1, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2015-11-15 16:31:30.636 GMT     8	INFO   	100508	Catalog	127.0.0.1:11111]	After collection#1: memory=11MB, #activations=1, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0042478.	
+[2015-11-15 16:31:30.698 GMT    10	INFO   	100000	GrainBasedMembershipTable	127.0.0.1:11111]	InitializeMembershipTable True.	
+[2015-11-15 16:31:30.706 GMT     8	INFO   	100603	MembershipOracle	127.0.0.1:11111]	MembershipOracle starting on host = 2013-20150912UD address = S127.0.0.1:11111:185301088 at 2015-11-15 16:31:30.586 GMT, backOffMax = 00:00:20	
+[2015-11-15 16:31:39.542 GMT     7	INFO   	100652	MembershipOracle	127.0.0.1:11111]	-CleanupTable called on silo startup. Membership table 0 silos, 0 are Active, 0 are Dead, Version=<0, 0>. All silos: []	
+[2015-11-15 16:31:39.583 GMT     8	INFO   	100660	MembershipOracle	127.0.0.1:11111]	Starting IAmAliveUpdateTimer.	
+[2015-11-15 16:31:39.591 GMT     8	INFO   	100604	MembershipOracle	127.0.0.1:11111]	-BecomeActive	
+[2015-11-15 16:31:39.594 GMT     8	INFO   	100614	MembershipOracle	127.0.0.1:11111]	About to send pings to 0 nodes in order to validate communication in the Joining state. Pinged nodes = []	
+[2015-11-15 16:31:39.598 GMT     7	INFO   	100634	MembershipOracle	127.0.0.1:11111]	-ReadAll (called from BecomeActive) Membership table 1 silos, 1 are Active, 0 are Dead, Version=<2, 5>. All silos: [SiloAddress=S127.0.0.1:11111:185301088 Status=Active]	
+[2015-11-15 16:31:39.600 GMT     7	INFO   	100605	MembershipOracle	127.0.0.1:11111]	-Finished BecomeActive.	
+[2015-11-15 16:31:39.601 GMT     1	INFO   	100702	WindowsPerfCountersStatistics	127.0.0.1:11111]	Starting Windows perf counter stats collection with frequency=00:00:30	
+[2015-11-15 16:31:43.057 GMT     1	WARNING	100701	WindowsPerfCountersStatistics	127.0.0.1:11111]	Windows perf counters not found -- defaulting to in-memory counters. Run OrleansCounterControl.exe as Administrator to create perf counters for Orleans.	
+[2015-11-15 16:31:43.068 GMT     1	INFO   	100714	SiloPerformanceMetrics	127.0.0.1:11111]	Starting Silo Table metrics reporter with reportFrequency=00:00:30	
+[2015-11-15 16:31:43.069 GMT     8	INFO   	100000	DeploymentLoadPublisher	127.0.0.1:11111]	Starting DeploymentLoadPublisher.	
+[2015-11-15 16:31:43.087 GMT     7	INFO   	100000	DeploymentLoadPublisher	127.0.0.1:11111]	Started DeploymentLoadPublisher.	
+[2015-11-15 16:31:43.088 GMT     1	INFO   	100000	Watchdog	127.0.0.1:11111]	Starting Silo Watchdog.	
+[2015-11-15 16:31:43.088 GMT    22	INFO   	100000	Runtime.Watchdog	127.0.0.1:11111]	Starting AsyncAgent Runtime.Watchdog on managed thread 22	
+[2015-11-15 16:31:43.091 GMT    11	INFO   	102925	ReminderService	127.0.0.1:11111]	Starting reminder system target on: S127.0.0.1:11111:185301088 x331BE413, with range <MultiRange: Size=x100000000, %Ring=100.000%>	
+[2015-11-15 16:31:43.108 GMT     8	INFO   	100000	GrainBasedReminderTable_S127.0.0.1:11111:185301088*grn/FCB3F509/00003039@643c13ba	127.0.0.1:11111]	GrainBasedReminderTable *grn/FCB3F509/00003039 Activated. Full identity: [ActivationAddress: S127.0.0.1:11111:185301088*grn/FCB3F509/00003039@643c13ba, Full GrainId: [GrainId: *grn/FCB3F509/0000000000000000000000000000303903fffffffcb3f509-0xBB9ED002, IdCategory: Grain, BaseTypeCode: -55315191 (xFCB3F509), PrimaryKey: 12345 (x3039), UniformHashCode: 3147747330 (0xBB9ED002)], Full ActivationId: @453b0f1c26e43f4c55e22971643c13ba0000000000000000]	
+[2015-11-15 16:31:43.120 GMT     8	INFO   	102926	ReminderService	127.0.0.1:11111]	Reminder system target started OK on: S127.0.0.1:11111:185301088 x331BE413, with range <MultiRange: Size=x100000000, %Ring=100.000%>	
+[2015-11-15 16:31:43.125 GMT    15	INFO   	100000	Runtime.Messaging.GatewayAcceptor	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.GatewayAcceptor on managed thread 15	
+[2015-11-15 16:31:43.125 GMT    16	INFO   	100000	Runtime.Messaging.GatewayClientCleanupAgent	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.GatewayClientCleanupAgent on managed thread 16	
+[2015-11-15 16:31:43.126 GMT     1	INFO   	100294	SystemStatus	127.0.0.1:11111]	SystemStatus=Running	
+[2015-11-15 16:31:43.127 GMT    15	INFO   	100328	Runtime.Messaging.GatewayAcceptor	127.0.0.1:11111]	Stopping AsyncAgent Runtime.Messaging.GatewayAcceptor that runs on managed thread 15	
+[2015-11-15 16:31:43.127 GMT     1	INFO   	100424	OrleansSiloHost	127.0.0.1:11111]	Silo startup event name: 2013-20150912UD	
+[2015-11-15 16:31:43.127 GMT     1	INFO   	100425	OrleansSiloHost	127.0.0.1:11111]	Created and set startup event 2013-20150912UD	
+[2015-11-15 16:31:43.128 GMT     1	INFO   	100402	OrleansSiloHost	127.0.0.1:11111]	Silo 2013-20150912UD started successfully	
+[2015-11-15 16:31:45.136 GMT    11	WARNING	101215	Scheduler.DeploymentLoadPublisherSystemTarge.WorkItemGroup	127.0.0.1:11111]	Task [Id=1, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:185301088DeploymentLoadPublisherSystemTarge@S00000016] took elapsed time 0:00:00.4357629 for execution, which is longer than 00:00:00.2000000. Running on thread <Runtime.Scheduler.WorkerPoolThread/System.5, ManagedThreadId=11, Executing Task Id=1 Status=RanToCompletion for 00:00:00.4380250>	
+[2015-11-15 16:31:45.328 GMT    32	INFO   	101301	Orleans.Messaging.Gateway	127.0.0.1:11111]	Recorded opened socket from endpoint 127.0.0.1:12986, client ID *cli/b6f1bda3.	
+[2015-11-15 16:31:45.356 GMT    34	INFO   	100000	Runtime.Messaging.GatewaySender/GatewaySiloSender_0	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.GatewaySender/GatewaySiloSender_0 on managed thread 34	
+[2015-11-15 16:31:57.850 GMT    32	INFO   	101301	Orleans.Messaging.Gateway	127.0.0.1:11111]	Recorded opened socket from endpoint 127.0.0.1:12987, client ID *cli/67412ba8.	
+[2015-11-15 16:31:57.950 GMT    35	INFO   	100000	Runtime.Messaging.GatewaySender/GatewaySiloSender_1	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.GatewaySender/GatewaySiloSender_1 on managed thread 35	
+[2015-11-15 16:32:26.282 GMT    32	WARNING	101024	Runtime.Messaging.GatewayAcceptor	127.0.0.1:11111]	Exception while completing a receive from 127.0.0.1:12987	
+Exc level 0: System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Orleans.Runtime.Messaging.IncomingMessageAcceptor.ReceiveCallback(IAsyncResult result)
+[2015-11-15 16:32:26.287 GMT    32	INFO   	101302	Orleans.Messaging.Gateway	127.0.0.1:11111]	Recorded closed socket from endpoint 127.0.0.1:12987, client ID *cli/67412ba8.	
+[2015-11-15 16:32:30.649 GMT     9	INFO   	100507	Catalog	127.0.0.1:11111]	Before collection#2: memory=19MB, #activations=2, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2015-11-15 16:32:30.649 GMT     9	INFO   	100508	Catalog	127.0.0.1:11111]	After collection#2: memory=19MB, #activations=2, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0043031.	
+[2015-11-15 16:33:30.659 GMT    11	INFO   	100507	Catalog	127.0.0.1:11111]	Before collection#3: memory=27MB, #activations=2, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2015-11-15 16:33:30.659 GMT    11	INFO   	100508	Catalog	127.0.0.1:11111]	After collection#3: memory=27MB, #activations=2, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0010196.	
+[2015-11-15 16:33:38.619 GMT    33	INFO   	101301	Orleans.Messaging.Gateway	127.0.0.1:11111]	Recorded opened socket from endpoint 127.0.0.1:12990, client ID *cli/671f6395.	
+[2015-11-15 16:33:38.719 GMT    37	INFO   	100000	Runtime.Messaging.GatewaySender/GatewaySiloSender_2	127.0.0.1:11111]	Starting AsyncAgent Runtime.Messaging.GatewaySender/GatewaySiloSender_2 on managed thread 37	
+[2015-11-15 16:33:43.139 GMT    16	INFO   	101303	Orleans.Messaging.Gateway	127.0.0.1:11111]	Dropping client *cli/67412ba8, 00:01:16.8512996 after disconnect with no reconnect	
+[2015-11-15 16:34:30.669 GMT     9	INFO   	100507	Catalog	127.0.0.1:11111]	Before collection#4: memory=35MB, #activations=2, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2015-11-15 16:34:30.669 GMT     9	INFO   	100508	Catalog	127.0.0.1:11111]	After collection#4: memory=35MB, #activations=2, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0010354.	
+[2015-11-15 16:34:40.705 GMT    33	WARNING	101024	Runtime.Messaging.GatewayAcceptor	127.0.0.1:11111]	Exception while completing a receive from 127.0.0.1:12990	
+Exc level 0: System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Orleans.Runtime.Messaging.IncomingMessageAcceptor.ReceiveCallback(IAsyncResult result)
+[2015-11-15 16:34:40.705 GMT    33	INFO   	101302	Orleans.Messaging.Gateway	127.0.0.1:11111]	Recorded closed socket from endpoint 127.0.0.1:12990, client ID *cli/671f6395.	
+[2015-11-15 16:35:30.689 GMT     7	INFO   	100507	Catalog	127.0.0.1:11111]	Before collection#5: memory=44MB, #activations=2, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2015-11-15 16:35:30.689 GMT     7	INFO   	100508	Catalog	127.0.0.1:11111]	After collection#5: memory=44MB, #activations=2, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0003835.	
+[2015-11-15 16:35:43.149 GMT    16	INFO   	101303	Orleans.Messaging.Gateway	127.0.0.1:11111]	Dropping client *cli/671f6395, 00:01:02.4444721 after disconnect with no reconnect	
+[2015-11-15 16:36:30.700 GMT    11	INFO   	100507	Catalog	127.0.0.1:11111]	Before collection#6: memory=14MB, #activations=2, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2015-11-15 16:36:30.700 GMT    11	INFO   	100508	Catalog	127.0.0.1:11111]	After collection#6: memory=14MB, #activations=2, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0009555.	
+[2015-11-15 16:36:43.091 GMT     6	INFO   	100704	SiloLogStatistics	127.0.0.1:11111]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=1.000
+App.Requests.LatencyHistogram.Millis=[0.0512:0.1023]=15, [0.1024:0.2047]=100, [0.2048:0.4095]=99, [0.4096:0.8191]=54, [0.8192:1.6383]=21, [1.6384:3.2767]=25, [3.2768:6.5535]=55, [6.5536:13.1071]=1, [13.1072:26.2143]=2, [26.2144:52.4287]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=373
+Catalog.Activation.Collection.NumberOfCollections.Current=6
+Catalog.Activation.Created.Current=2
+Catalog.Activation.CurrentCount=2
+Catalog.Activation.Destroyed.Current=0
+Catalog.Activation.FailedToActivate.Current=0
+ConsistentRing.AverageRangePercentage=100.000
+ConsistentRing.MyRange.RingDistance=x100000000
+ConsistentRing.MyRange.RingPercentage=100.000
+ConsistentRing.Ring=[S127.0.0.1:11111:185301088 -> <MultiRange: Size=x100000000, %Ring=100.000%>]
+ConsistentRing.RingSize=1
+Directory.CacheSize=0
+Directory.Lookups.Cache.HitRatio=0, Delta=0
+Directory.Lookups.Cache.Issued.Current=0
+Directory.Lookups.Cache.Successes.Current=0
+Directory.Lookups.Full.Issued.Current=1
+Directory.Lookups.Local.Issued.Current=76
+Directory.Lookups.Local.Successes.Current=75
+Directory.Lookups.LocalDirectory.Issued.Current=77
+Directory.Lookups.LocalDirectory.Successes.Current=75
+Directory.Lookups.Remote.Received.Current=0
+Directory.Lookups.Remote.Sent.Current=0
+Directory.PartitionSize=3
+Directory.Registrations.Issued.Current=5
+Directory.Registrations.Local.Current=5
+Directory.Registrations.Remote.Received.Current=0
+Directory.Registrations.Remote.Sent.Current=0
+Directory.Registrations.SingleAct.Issued.Current=2
+Directory.Registrations.SingleAct.Local.Current=2
+Directory.Registrations.SingleAct.Remote.Received.Current=0
+Directory.Registrations.SingleAct.Remote.Sent.Current=0
+Directory.Ring=[S127.0.0.1:11111:185301088/331BE413]
+Directory.Ring.MyPortion.AverageRingPercentage=100.000
+Directory.Ring.MyPortion.RingDistance=0
+Directory.Ring.MyPortion.RingPercentage=0.000
+Directory.Ring.MyPredecessors=[]
+Directory.Ring.MySuccessors=[]
+Directory.Ring.RingSize=1
+Directory.UnRegistrations.Issued.Current=2
+Directory.UnRegistrations.Local.Current=2
+Directory.UnRegistrations.Remote.Received.Current=0
+Directory.UnRegistrations.Remote.Sent.Current=0
+Directory.UnRegistrationsMany.Issued.Current=0
+Directory.UnRegistrationsMany.Remote.Received.Current=0
+Directory.UnRegistrationsMany.Remote.Sent.Current=0
+Directory.Validations.Cache.Received.Current=0
+Directory.Validations.Cache.Sent.Current=0
+Dispatcher.NewPlacement.Current=1
+Gateway.ConnectedClients.Current=1
+Gateway.LoadShedding.Current=0
+Gateway.Received.Current=6
+Gateway.Sent.Current=6
+Grain.Orleans.Runtime.MembershipService.GrainBasedMembershipTable.Current=1
+Grain.Orleans.Runtime.ReminderService.GrainBasedReminderTable.Current=1
+Membership.ActiveCluster=[S127.0.0.1:11111:185301088]
+Membership.ActiveClusterSize=1
+MessageCenter.ReceiveQueueLength=0
+MessageCenter.SendQueueLength=0
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Processing.ActivationData.All=0
+Messaging.Processing.Dispatcher.Processed.Errors.Direction.OneWay.Current=0
+Messaging.Processing.Dispatcher.Processed.Errors.Direction.Request.Current=0
+Messaging.Processing.Dispatcher.Processed.Errors.Direction.Response.Current=0
+Messaging.Processing.Dispatcher.Processed.Ok.Direction.OneWay.Current=0
+Messaging.Processing.Dispatcher.Processed.Ok.Direction.Request.Current=76
+Messaging.Processing.Dispatcher.Processed.Ok.Direction.Response.Current=0
+Messaging.Processing.Dispatcher.Processed.ReRoute.Direction.OneWay.Current=0
+Messaging.Processing.Dispatcher.Processed.ReRoute.Direction.Request.Current=0
+Messaging.Processing.Dispatcher.Processed.ReRoute.Direction.Response.Current=0
+Messaging.Processing.Dispatcher.Processed.Total.Current=76
+Messaging.Processing.Dispatcher.Received.Direction.OneWay.Current=0
+Messaging.Processing.Dispatcher.Received.Direction.Request.Current=76
+Messaging.Processing.Dispatcher.Received.Direction.Response.Current=0
+Messaging.Processing.Dispatcher.Received.OnActivationContext.Current=75
+Messaging.Processing.Dispatcher.Received.OnNullContext.Current=1
+Messaging.Processing.Dispatcher.Received.Total.Current=76
+Messaging.Processing.IGC.Forwarded.Current=0
+Messaging.Processing.IGC.ReRoute.Current=0
+Messaging.Processing.IGC.Resent.Current=0
+Messaging.Processing.IMA.Enqueued.ToActivationContex.Current=75
+Messaging.Processing.IMA.Enqueued.ToNullContex.Current=1
+Messaging.Processing.IMA.Enqueued.ToSystemTargetContex.Current=676
+Messaging.Processing.IMA.Received.Current=752
+Messaging.Received.BatchSize.PerSocketDirection.GatewayToClient=0.000
+Messaging.Received.BatchSize.PerSocketDirection.SiloToSilo=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.GatewayToClient=
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.SiloToSilo=
+Messaging.Received.Bytes.Header.Current=1482
+Messaging.Received.Bytes.Total.Current=1716
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=6
+Messaging.Received.Direction.Response.Current=0
+Messaging.Received.Messages.From.Null.Current=6
+Messaging.Received.Messages.Total.Current=6
+Messaging.Received.MessageSizeHistogram.Bytes=[256:511]=6, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=6
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.GatewayToClient=0.000
+Messaging.Sent.BatchSize.PerSocketDirection.SiloToSilo=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.GatewayToClient=
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.SiloToSilo=
+Messaging.Sent.Bytes.Header.Current=1434
+Messaging.Sent.Bytes.Total.Current=4941
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=0
+Messaging.Sent.Direction.Response.Current=6
+Messaging.Sent.LocalMessages.Current=752
+Messaging.Sent.Messages.To.Null.Current=6
+Messaging.Sent.Messages.Total.Current=6
+Messaging.Sent.MessageSizeHistogram.Bytes=[256:511]=3, [1024:2047]=3, 
+Networking.Sockets.GatewayToClient.Duplex.Closed.Current=2
+Networking.Sockets.GatewayToClient.Duplex.Opened.Current=3
+Networking.Sockets.Silo.Receiving.Closed.Current=0
+Networking.Sockets.Silo.Receiving.Opened.Current=0
+Networking.Sockets.Silo.Sending.Closed.Current=0
+Networking.Sockets.Silo.Sending.Opened.Current=0
+Queues.QueueSize.Instantaneous.Scheduler.LevelOne=0
+Reminders.AverageTardiness.Seconds=0 Secs
+Reminders.NumberOfActiveReminders=0
+Reminders.TicksDelivered.Current=0
+Runtime.CpuUsage=6.473
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=0.000
+Runtime.GC.GenCollectonCount=gen0=5, gen1=3, gen2=3
+Runtime.GC.GenSizesKb=gen0=69494.84, gen1=3411.34, gen2=2449.13
+Runtime.GC.LargeObjectHeapSizeKb=584.372
+Runtime.GC.NumberOfInducedGCs=2.000
+Runtime.GC.PercentOfTimeInGC=0.010
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=5.039
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=17474
+Runtime.IsOverloaded=False
+Runtime.Memory.AvailableMemoryMb=848
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1.Current=1
+Runtime.Threads.AsynchAgent.Runtime.Messaging.GatewayAcceptor.Current=0
+Runtime.Threads.AsynchAgent.Runtime.Messaging.GatewayClientCleanupAgent.Current=1
+Runtime.Threads.AsynchAgent.Runtime.Messaging.GatewaySender.Current=3
+Runtime.Threads.AsynchAgent.Runtime.Messaging.IncomingMessageAcceptor.Current=0
+Runtime.Threads.AsynchAgent.Runtime.Messaging.IncomingMessageAgent.Current=3
+Runtime.Threads.AsynchAgent.Runtime.Messaging.SiloMessageSender.Current=2
+Runtime.Threads.AsynchAgent.Runtime.Scheduler.WorkerPoolThread.Current=5
+Runtime.Threads.AsynchAgent.Runtime.Watchdog.Current=1
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=18
+Scheduler.NumLongQueueWaitTimes.Current=0
+Scheduler.NumLongRunningTurns.Current=1
+Scheduler.WorkItemGroupCount=12
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=124
+Serialization.BufferPool.CheckedInBuffers.Current=262
+Serialization.BufferPool.CheckedOutBuffers.Current=388
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=126
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=126
+Silo.StartTime=2015-11-15 16:31:28.754 GMT
+Storage.Activate.Errors.Current=0
+Storage.Activate.Total.Current=0
+Storage.Clear.Errors.Current=0
+Storage.Clear.Latency=0 Secs
+Storage.Clear.Total.Current=0
+Storage.Read.Errors.Current=0
+Storage.Read.Latency=0 Secs
+Storage.Read.Total.Current=0
+Storage.Write.Errors.Current=0
+Storage.Write.Latency=0 Secs
+Storage.Write.Total.Current=0
+Watchdog.NumHealthChecks.Current=0
+	

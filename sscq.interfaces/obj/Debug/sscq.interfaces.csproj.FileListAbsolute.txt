@@ -1,0 +1,6 @@
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\bin\Debug\sscq.interfaces.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\bin\Debug\sscq.interfaces.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\bin\Debug\Orleans.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\bin\Debug\Orleans.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\obj\Debug\sscq.interfaces.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\obj\Debug\sscq.interfaces.pdb
