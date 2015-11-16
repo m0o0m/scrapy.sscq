@@ -33,12 +33,33 @@ namespace sscq.spiderman
                 case "connect":
                     client.Connect();
                     this.button1.Tag = "disConnect";
+                    this.button1.Text = "断开";
+                    this.textBox1.Enabled = false;
+                    this.timer1.Enabled = true;
                     break;
                 case "disConnect":
                     client.DisConnect();
                     this.button1.Tag = "connect";
+                    this.button1.Text = "连接";
+                    this.textBox1.Enabled = true;
+                    this.timer1.Enabled = false;
                     break;
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (client.KeepAlived().Result)
+            {
+                if (this.notifyIcon1.Tag.ToString() == "red")
+                {
+                    this.notifyIcon1.Icon = Properties.Resources.Spiderman_Green48;
+                    this.notifyIcon1.Tag = "green";
+                    return;
+                }
+            }
+            this.notifyIcon1.Icon = Properties.Resources.Spiderman48;
+            this.notifyIcon1.Tag = "red";
         }
     }
 }

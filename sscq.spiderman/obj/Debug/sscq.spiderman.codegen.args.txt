@@ -3,15 +3,22 @@
 /key:
 /d:DEBUG;TRACE
 /rns:sscq.spiderman
+/r:E:\WorkSpace\dotnet\scrapy.sscq\packages\ScrapySharp.2.2.63\lib\net40\FSharp.Core.dll
+/r:E:\WorkSpace\dotnet\scrapy.sscq\packages\ScrapySharp.2.2.63\lib\net40\HtmlAgilityPack.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll
+/r:E:\WorkSpace\dotnet\scrapy.sscq\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll
 /r:E:\WorkSpace\dotnet\scrapy.sscq\packages\Microsoft.Orleans.Core.1.0.10\lib\net45\Orleans.dll
+/r:E:\WorkSpace\dotnet\scrapy.sscq\packages\ScrapySharp.2.2.63\lib\net40\ScrapySharp.Core.dll
+/r:E:\WorkSpace\dotnet\scrapy.sscq\packages\ScrapySharp.2.2.63\lib\net40\ScrapySharp.dll
 /r:E:\WorkSpace\dotnet\scrapy.sscq\sscq.interfaces\bin\Debug\sscq.interfaces.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Runtime.Caching.dll
+/r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll
 /r:C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll
@@ -26,6 +33,12 @@
 /src:Form1.cs
 /src:Form1.Designer.cs
 /src:IClient.cs
+/src:scrapy\cqssc\HaomaDownloadPage.cs
+/src:scrapy\cqssc\JihuaDetailPage.cs
+/src:scrapy\cqssc\JihuaExpertPage.cs
+/src:scrapy\cqssc\JihuaIndexPage.cs
+/src:scrapy\Driver.cs
+/src:SpiderLogger.cs
 /src:OrleansClient.cs
 /src:Program.cs
 /src:Properties\AssemblyInfo.cs

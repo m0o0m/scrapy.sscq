@@ -8,9 +8,9 @@ namespace sscq.spiderman
 {
     public interface IClient
     {      
-        bool Connect(string ip, int port);
-        bool Connect();
-        bool DisConnect();
-        bool KeepAlived();
+        Task<bool> Connect(string ip, int port);
+        Task<bool> Connect();
+        Task<bool> DisConnect();
+        Task<bool> KeepAlived();
     }
 }

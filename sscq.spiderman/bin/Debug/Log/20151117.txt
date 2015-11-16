@@ -1,0 +1,73 @@
+﻿[Info 2015/11/17 1:10:27] : 启动 Orleans Client......
+[Info 2015/11/17 1:10:34] : 关闭 Orleans Client......
+[Info 2015/11/17 1:10:37] : 启动 Orleans Client......
+[Info 2015/11/17 1:10:41] : 关闭 Orleans Client......
+[Info 2015/11/17 1:25:17] : 启动 Orleans Client......
+[Error 2015/11/17 1:25:23] : 启动 Orleans Client 失败....../r/n发生一个或多个错误。
+[Info 2015/11/17 1:25:41] : 关闭 Orleans Client......
+[Info 2015/11/17 1:25:42] : 启动 Orleans Client......
+[Error 2015/11/17 1:25:46] : 启动 Orleans Client 失败....../r/n发生一个或多个错误。
+[Info 2015/11/17 1:26:18] : 关闭 Orleans Client......
+[Info 2015/11/17 1:29:07] : ------------------启动 Orleans Client.------------------
+[Error 2015/11/17 1:29:12] : 启动 Orleans Client 失败.发生一个或多个错误。[Error 2015/11/17 1:29:12] :    在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 Orleans.GrainClient.InternalInitialize(ClientConfiguration config, OutsideRuntimeClient runtimeClient)
+   在 Orleans.GrainClient.Initialize(ClientConfiguration config)
+   在 sscq.spiderman.OrleansClient.<Connect>d__3.MoveNext() 位置 e:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\OrleansClient.cs:行号 41
+
+[Info 2015/11/17 1:29:53] : ------------------关闭 Orleans Client.------------------
+[Info
+ 2015/11/17 1:31:17] : ------------------启动 Orleans Client.------------------
+[Error 2015/11/17 1:31:22] : 启动 Orleans Client 失败.发生一个或多个错误。\r\n[Error 2015/11/17 1:31:22] :    在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 Orleans.GrainClient.InternalInitialize(ClientConfiguration config, OutsideRuntimeClient runtimeClient)
+   在 Orleans.GrainClient.Initialize(ClientConfiguration config)
+   在 sscq.spiderman.OrleansClient.<Connect>d__3.MoveNext() 位置 e:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\OrleansClient.cs:行号 41\r\n
+
+[Info
+ 2015/11/17 1:31:36] : ------------------关闭 Orleans Client.------------------
+[Info
+ 2015/11/17 1:31:37] : ------------------启动 Orleans Client.------------------
+[Error 2015/11/17 1:31:41] : 启动 Orleans Client 失败.发生一个或多个错误。\r\n[Error 2015/11/17 1:31:41] :    在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 Orleans.GrainClient.InternalInitialize(ClientConfiguration config, OutsideRuntimeClient runtimeClient)
+   在 Orleans.GrainClient.Initialize(ClientConfiguration config)
+   在 sscq.spiderman.OrleansClient.<Connect>d__3.MoveNext() 位置 e:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\OrleansClient.cs:行号 41\r\n
+
+[Info
+ 2015/11/17 1:32:08] : ------------------关闭 Orleans Client.------------------
+[Info 2015/11/17 1:33:18] : ------------------启动 Orleans Client.------------------
+[Error 2015/11/17 1:33:24] : 启动 Orleans Client 失败.发生一个或多个错误。\r\n[Error 2015/11/17 1:33:24] :    在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 Orleans.GrainClient.InternalInitialize(ClientConfiguration config, OutsideRuntimeClient runtimeClient)
+   在 Orleans.GrainClient.Initialize(ClientConfiguration config)
+   在 sscq.spiderman.OrleansClient.<Connect>d__3.MoveNext() 位置 e:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\OrleansClient.cs:行号 41
+
+[Info 2015/11/17 1:33:29] : ------------------关闭 Orleans Client.------------------
+[Info 2015/11/17 1:34:38] : ------------------启动 Orleans Client.------------------
+[Error 2015/11/17 1:34:43] : 启动 Orleans Client 失败.发生一个或多个错误。
+[Error 2015/11/17 1:34:44] :    在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 Orleans.GrainClient.InternalInitialize(ClientConfiguration config, OutsideRuntimeClient runtimeClient)
+   在 Orleans.GrainClient.Initialize(ClientConfiguration config)
+   在 sscq.spiderman.OrleansClient.<Connect>d__3.MoveNext() 位置 e:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\OrleansClient.cs:行号 41
+
+[Info 2015/11/17 1:34:58] : ------------------关闭 Orleans Client.------------------
+[Info 2015/11/17 1:35:04] : ------------------启动 Orleans Client.------------------
+[Error 2015/11/17 1:35:08] : 启动 Orleans Client 失败.发生一个或多个错误。
+[Error 2015/11/17 1:35:08] :    在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 Orleans.GrainClient.InternalInitialize(ClientConfiguration config, OutsideRuntimeClient runtimeClient)
+   在 Orleans.GrainClient.Initialize(ClientConfiguration config)
+   在 sscq.spiderman.OrleansClient.<Connect>d__3.MoveNext() 位置 e:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\OrleansClient.cs:行号 41
+
+[Info 2015/11/17 1:35:59] : ------------------启动 Orleans Client.------------------
+[Info 2015/11/17 1:36:46] : ------------------关闭 Orleans Client.------------------
+[Info 2015/11/17 1:36:50] : ------------------启动 Orleans Client.------------------
+[Info 2015/11/17 1:37:05] : ------------------关闭 Orleans Client.------------------

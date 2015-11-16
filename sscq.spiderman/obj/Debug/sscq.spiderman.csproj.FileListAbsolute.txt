@@ -1,4 +1,3 @@
-E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\DevTestClientConfiguration.xml
 E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.spiderman.exe.config
 E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.spiderman.exe
 E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.spiderman.pdb
@@ -12,3 +11,16 @@ E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.Properti
 E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.csproj.GenerateResource.Cache
 E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.exe
 E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\obj\Debug\sscq.spiderman.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\FSharp.Core.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\HtmlAgilityPack.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Newtonsoft.Json.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.Core.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.dll
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\FSharp.Core.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\HtmlAgilityPack.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\HtmlAgilityPack.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Newtonsoft.Json.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.Core.pdb
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.Core.xml
+E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Resources\DevTestClientConfiguration.xml

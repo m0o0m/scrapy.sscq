@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Linq;
 using System.Text;
 using System.Net;
 
 using Orleans;
+using Orleans.Runtime.Configuration;
 
 namespace sscq.spiderman
 {
@@ -13,37 +15,67 @@ namespace sscq.spiderman
         public static IClient Instance = new OrleansClient();
 
         private OrleansClient()
-        { }        
+        { }
 
-        public bool Connect(string ip, int port)
+        public async Task<bool> Connect(string ip, int port)
         {
-            return this.Connect();
+            return await this.Connect();
         }
 
-        public bool Connect()
+        public async Task<bool> Connect()
         {
-            if (!Orleans.GrainClient.IsInitialized)
+
+            SpiderLogger.Info("------------------启动 Orleans Client.------------------");
+            try
             {
-                Orleans.GrainClient.Initialize("DevTestClientConfiguration.xml");
-                System.Threading.Thread.Sleep(5 * 1000);
+                if (!Orleans.GrainClient.IsInitialized)
+                {
+                    ClientConfiguration config = new ClientConfiguration();
+                    config.GatewayProvider = ClientConfiguration.GatewayProviderType.Config;
+                    IPEndPoint ip=new IPEndPoint(IPAddress.Parse("127.0.0.1"),30000);
+                    config.Gateways.Add(ip);
+                    config.StatisticsMetricsTableWriteInterval = TimeSpan.FromSeconds(30);
+                    config.StatisticsLogWriteInterval = TimeSpan.FromSeconds(300);
+                    config.StatisticsWriteLogStatisticsToTable = false;
+                    config.StatisticsPerfCountersWriteInterval = TimeSpan.FromSeconds(30);
+                    Orleans.GrainClient.Initialize(config);
+                }
+                IServices server = GrainClient.GrainFactory.GetGrain<IServices>(Guid.NewGuid());
+                return await server.ConnectToServer(Dns.GetHostName());
+                
             }
-            IServices server = GrainClient.GrainFactory.GetGrain<IServices>(Guid.NewGuid());
-            server.ConnectToServer(Dns.GetHostName());
-            return true;
-        }
-
-        public bool DisConnect()
-        {
-            if (Orleans.GrainClient.IsInitialized)
+            catch (Exception ex)
             {
-                Orleans.GrainClient.Uninitialize();
-            }
-            return true ;
+                SpiderLogger.Error("启动 Orleans Client 失败." + ex.Message+"\r\n");
+                SpiderLogger.Error(ex.StackTrace);
+                return false;
+
+            }           
         }
 
-        public bool KeepAlived()
+        public Task<bool> DisConnect()
         {
-            return true;
+            SpiderLogger.Info("------------------关闭 Orleans Client.------------------");
+             try
+             {
+                 if (Orleans.GrainClient.IsInitialized)
+                 {
+                     Orleans.GrainClient.Uninitialize();
+                 }
+                 return Task.FromResult(true) ;
+             }
+             catch (Exception ex)
+             {
+                 SpiderLogger.Error("关闭 Orleans Client 失败." + ex.Message + "\r\n");
+                 SpiderLogger.Error(ex.StackTrace);
+                 return Task.FromResult(false);
+             }   
+           
+        }
+
+        public Task<bool> KeepAlived()
+        {
+            return Task.FromResult(true);
         }       
     }
 }

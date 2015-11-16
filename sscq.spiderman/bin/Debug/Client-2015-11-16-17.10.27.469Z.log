@@ -1,0 +1,142 @@
+[2015-11-16 17:10:27.949 GMT    12	INFO   	100000	AssemblyLoader.Client	]	Recursively searching for assemblies in E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug...	
+[2015-11-16 17:10:28.029 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\FSharp.Core.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-16 17:10:28.039 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\HtmlAgilityPack.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-16 17:10:28.059 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Newtonsoft.Json.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-16 17:10:28.069 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2015-11-16 17:10:28.079 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.Core.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-16 17:10:28.199 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\ScrapySharp.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-16 17:10:28.219 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\sscq.interfaces.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2015-11-16 17:10:28.229 GMT    12	INFO   	100000	AssemblyLoader.Client	]	0 assemblies loaded.	
+[2015-11-16 17:10:28.269 GMT    12	INFO   	100313	OutsideRuntimeClient	]	---------- Initializing OutsideRuntimeClient on 2013-20150912UD at 192.168.1.103 Client Id = *cli/20d42885 ----------	
+[2015-11-16 17:10:28.289 GMT    12	INFO   	100314	OutsideRuntimeClient	]	---------- Starting OutsideRuntimeClient with runtime Version='1.0.10.0 (Release).' Config= 
+ Platform version info:
+   .NET version: 4.0.30319.18444
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.1.7601 Service Pack 1
+   GC Type=Server GCLatencyMode=Interactive
+   Host: 2013-20150912UD
+   Processor Count: 4
+Client Configuration:
+   Config File Name: 
+   Start time: 2015-11-16 17:10:28.279 GMT
+   Gateway Provider: Config
+   Gateways[1]:
+      127.0.0.1:30000
+   Preferred Gateway Index: -1
+   GatewayListRefreshPeriod: 00:01:00
+   Azure:
+      DeploymentId: Administrator
+      DataConnectionString: null
+   Preferred Address Family: InterNetwork
+   DNS Host Name: 2013-20150912UD
+   Client Name: Client
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides: None
+     Trace to Console: True
+     Trace File Name: E:\WorkSpace\dotnet\scrapy.sscq\sscq.spiderman\bin\Debug\Client-2015-11-16-17.10.27.469Z.log
+     Write Messaging Traces: False
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: False
+     StatisticsCollectionLevel: Info
+   Messaging:
+       Response timeout: 00:30:00
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Client Sender Buckets: 8192
+       Use standard (.NET) serializer: False   [NOTE: This *MUST* match the setting on the server or nothing will work!]
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+   Providers:
+       No providers configured.
+	
+[2015-11-16 17:10:28.639 GMT    12	INFO   	101309	Messaging.GatewayManager	]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://127.0.0.1:30000/0]	
+[2015-11-16 17:10:30.489 GMT    12	INFO   	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Connected to gateway at address gwy.tcp://127.0.0.1:30000/0 on trial 0.	
+[2015-11-16 17:10:30.509 GMT     3	INFO   	100000	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0 on managed thread 3	
+[2015-11-16 17:10:30.509 GMT     5	INFO   	100000	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0 on managed thread 5	
+[2015-11-16 17:10:30.549 GMT    12	INFO   	100929	OutsideRuntimeClient	192.168.1.103:0]	---------- Started OutsideRuntimeClient with Global Client ID: C192.168.1.103:0:-185389828*cli/20d42885@4a19cf96, client GUID ID: *cli/20d42885	
+[2015-11-16 17:10:34.179 GMT    10	INFO   	100000	OutsideRuntimeClient	192.168.1.103:0]	OutsideRuntimeClient.Reset(): client Id *cli/20d42885	
+[2015-11-16 17:10:34.229 GMT     3	INFO   	100328	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Stopping AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:30000/0 that runs on managed thread 3	
+[2015-11-16 17:10:34.239 GMT     5	INFO   	100312	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Stop request processed	
+[2015-11-16 17:10:34.249 GMT     5	INFO   	100328	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0	192.168.1.103:0]	Stopping AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:30000/0 that runs on managed thread 5	
+[2015-11-16 17:10:34.269 GMT    10	INFO   	100704	ClientLogStatistics	192.168.1.103:0]	Statistics: ^^^
+App.Requests.Latency.Average.Millis=24.000
+App.Requests.LatencyHistogram.Millis=[0.4096:0.8191]=1, [1.6384:3.2767]=1, [52.4288:104.8575]=1, 
+App.Requests.TimedOut.Current=0
+App.Requests.Total.Requests.Current=3
+Client.ConnectedGatewayCount=0
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=705
+Messaging.Received.Bytes.Total.Current=2053
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=3
+Messaging.Received.Messages.From.S127.0.0.1:30000:0.Current=3
+Messaging.Received.Messages.Total.Current=3
+Messaging.Received.MessageSizeHistogram.Bytes=[128:255]=1, [256:511]=1, [1024:2047]=1, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=699
+Messaging.Sent.Bytes.Total.Current=835
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=3
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S127.0.0.1:30000:0.Current=3
+Messaging.Sent.Messages.Total.Current=3
+Messaging.Sent.MessageSizeHistogram.Bytes=[128:255]=1, [256:511]=2, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=1
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.CpuUsage=0.000
+Runtime.DOT.NET.ThreadPool.InUse.CompletionPortThreads=0
+Runtime.DOT.NET.ThreadPool.InUse.WorkerThreads=2
+Runtime.GC.AllocatedBytesInKbPerSec=0.000
+Runtime.GC.GenCollectonCount=gen0=1, gen1=0, gen2=0
+Runtime.GC.GenSizesKb=gen0=42282.33, gen1=1218.37, gen2=0.05
+Runtime.GC.LargeObjectHeapSizeKb=100.085
+Runtime.GC.NumberOfInducedGCs=0.000
+Runtime.GC.PercentOfTimeInGC=0.000
+Runtime.GC.PromotedFinalizationMemoryFromGen0Kb=17.277
+Runtime.GC.PromotedMemoryFromGen1Kb=0.000
+Runtime.GC.TotalMemoryKb=8454
+Runtime.Memory.AvailableMemoryMb=1149
+Runtime.Memory.TotalPhysicalMemoryMb=4096
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=0
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=0
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=216
+Serialization.BufferPool.CheckedInBuffers.Current=259
+Serialization.BufferPool.CheckedOutBuffers.Current=293
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=34
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=34
+	
+[2015-11-16 17:10:34.769 GMT    10	INFO   	100000	OutsideRuntimeClient	192.168.1.103:0]	OutsideRuntimeClient.ConstructorReset(): client Id *cli/20d42885	

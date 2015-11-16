@@ -71,6 +71,25 @@ namespace sscq.spiderman.Properties {
         }
         
         /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;!-- 
+        ///	This is a sample client configuration file. 
+        ///	For a detailed reference, see &quot;Orleans Configuration Reference.html&quot;.
+        ///--&gt;
+        ///&lt;ClientConfiguration xmlns=&quot;urn:orleans&quot;&gt;
+        ///  &lt;GatewayProvider ProviderType=&quot;Config&quot;/&gt;
+        ///  &lt;Gateway Address=&quot;localhost&quot; Port=&quot;30000&quot;/&gt;
+        ///  &lt;Statistics MetricsTableWriteInterval=&quot;30s&quot; PerfCounterWriteInterval=&quot;30s&quot; LogWriteInterval=&quot;300s&quot; WriteLogStatisticsToTable=&quot;false&quot;/&gt;
+        ///&lt;/ClientConfiguration&gt;
+        /// 的本地化字符串。
+        /// </summary>
+        internal static string DevTestClientConfiguration {
+            get {
+                return ResourceManager.GetString("DevTestClientConfiguration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似于 (Icon) 的 System.Drawing.Icon 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Icon Spiderman_Green48 {
